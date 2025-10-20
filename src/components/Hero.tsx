@@ -45,8 +45,7 @@ const Hero = () => {
                 if (element) element.scrollIntoView({ behavior: "smooth" });
               }}
               size="lg"
-              variant="outline"
-              className="border-2 border-white text-white hover:bg-white hover:text-primary font-bold text-lg px-8 py-6"
+              className="bg-secondary text-secondary-foreground hover:bg-secondary-light font-bold text-lg px-8 py-6 shadow-gold hover-gold"
             >
               Conhecer Serviços
             </Button>

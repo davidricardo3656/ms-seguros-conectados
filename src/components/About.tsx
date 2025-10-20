@@ -20,7 +20,7 @@ const About = () => {
     {
       icon: Award,
       title: "Experiência Comprovada",
-      description: "Anos de expertise no mercado de seguros",
+      description: "Mais de 25 anos de expertise no mercado de seguros",
     },
   ];
 

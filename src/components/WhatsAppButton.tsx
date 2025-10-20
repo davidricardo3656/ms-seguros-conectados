@@ -1,5 +1,5 @@
-import { MessageCircle } from "lucide-react";
 import { useState } from "react";
+import whatsappIcon from "@/assets/whatsapp-icon.png";
 
 const WhatsAppButton = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -18,7 +18,7 @@ const WhatsAppButton = () => {
       onMouseLeave={() => setIsHovered(false)}
       aria-label="Contato via WhatsApp"
     >
-      <MessageCircle className="w-6 h-6 animate-pulse" />
+      <img src={whatsappIcon} alt="WhatsApp" className="w-6 h-6 animate-pulse" />
       <span
         className={`font-semibold whitespace-nowrap overflow-hidden transition-all duration-300 ${
           isHovered ? "max-w-xs opacity-100" : "max-w-0 opacity-0"
